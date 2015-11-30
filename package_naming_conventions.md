@@ -12,15 +12,15 @@
 
 ## broccoli-html-editor field packages
 
-- repository: broccoli-{$field\_name}-field(s)
-- composer package: pickles2/broccoli-{$field\_name}-field(s)
-- npm package: broccoli-{$field\_name}-field(s)
+- repository: broccoli-field-{$field\_name}
+- composer package: pickles2/broccoli-field-{$field\_name}
+- npm package: broccoli-field-{$field\_name}
 
 ## broccoli-html-editor module packages
 
-- repository: broccoli-{$module\_name}-module(s)
-- composer package: pickles2/broccoli-{$module\_name}-module(s)
-- npm package: broccoli-{$module\_name}-module(s)
+- repository: broccoli-module-{$module\_name}
+- composer package: pickles2/broccoli-module-{$module\_name}
+- npm package: broccoli-module-{$module\_name}
 
 ## Applications examples
 
