@@ -44,6 +44,8 @@ composer が読み込む `composer.json` の仕様を拡張し、 `px2package` �
 - `processor` - プロセッサ
 - `plugin` - その他のプラグイン
 
+※ モジュールは外部のライブラリ `broccoli-html-editor` 依存のため、ここでは定義しません。代わりに、 `broccoli-html-editor` が定義する `broccoli.json` を参照します。
+
 ### px2package->extra->path
 
 パッケージデータを格納したパス。
