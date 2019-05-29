@@ -20,6 +20,7 @@ composer が読み込む `composer.json` の仕様を拡張し、 `px2package` �
     },
     "extra": {
         "px2package": {
+            "id": "the-theme-name",
             "name": "The Theme Name",
             "type": "theme",
             "path": "px-files/themes/pickles2/"
@@ -29,6 +30,14 @@ composer が読み込む `composer.json` の仕様を拡張し、 `px2package` �
 ```
 
 ## 仕様
+
+### px2package->extra->id
+
+パッケージのID。
+
+テーマパッケージ(`type` が `theme` の場合)が、初回にインポートされる際に、デフォルトのIDとして参照されます。
+
+テーマパッケージ以外では省略します。
 
 ### px2package->extra->name
 
@@ -84,11 +93,13 @@ composer が読み込む `composer.json` の仕様を拡張し、 `px2package` �
                 "path_homedir": "px-files/"
             },
             {
+                "id": "the-theme-1",
                 "name": "The Theme 1",
                 "type": "theme",
                 "path": "px-files/themes/theme1/"
             },
             {
+                "id": "the-theme-2",
                 "name": "The Theme 2",
                 "type": "theme",
                 "path": "px-files/themes/theme2/"
