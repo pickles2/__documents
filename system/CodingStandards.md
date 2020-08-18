@@ -44,10 +44,15 @@ Pickles 2 プロジェクトは、 PHP のフレームワークである [pickle
 ## 推奨事項
 
 - 使用言語
-    - 特に理由がなければ [PHP](http://php.net/) を使用します。
+    - 特に理由がなければ [PHP](https://php.net/) を使用します。
     - デスクトップツールは JavaScript ([Node.js](https://nodejs.org/ja/), [NW.js](https://nwjs.io/) or [Electron](https://electron.atom.io/)) を使用します。
 - テスト
     - PHP では `composer test`, Node.js では `npm test` のコマンドでテストコードを実行できるようにします。
+- 開発・設計方針
+    - プラットフォームやPHPのバージョンなどの環境に依存する挙動の差異を吸収するように努めます。
+    - 以前に学んだ知識や、古いドキュメントが無効にならないように努めます。
+        - リリースされた仕様をあとから変更することは極力避け、追加機能や個別パッケージの差し替えによって実現する方法を検討します。
+        - 古い知識が無効になるのは、 Pickles 3 になるときです。
 
 ## `px2package` と `broccoli.json`
 
